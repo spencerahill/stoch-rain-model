@@ -10,6 +10,7 @@ Python code for the on–off stochastic column-moisture model of Martinez-Villal
 - `tests/test_port.py`: checks `scripts/stoch_rain.py`, the review's numba port of the 2023 model, bit for bit against the 2023 notebook's own class.
 - `tests/test_notebook.py`: checks the model function in `stoch_rain_model.ipynb` against that port with MN19's scheme selected. It also checks the noise scaling, the wet-regime tendency, the lower boundary, the moisture budget, the daily event counts, and the notebook's transcriptions of MN19's eqs. (2), (9) and (D6) and of their appendix A fit.
 - `martinez-villalobos-neelin-2019-jas.pdf`: the paper, kept out of git for AMS copyright.
+- `LICENSE`: the MIT license, which covers the code and notebooks in this repository.
 
 ## Running
 
