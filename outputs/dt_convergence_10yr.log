@@ -1,0 +1,49 @@
+dt = 60.0 s: 5256000 steps
+dt = 6.0 s: 52560000 steps
+dt = 0.6 s: 525600000 steps
+dt = 0.06 s: 5256000000 steps
+    chunk 1 of 1254, elapsed 0 s
+    chunk 63 of 1254, elapsed 5 s
+    chunk 125 of 1254, elapsed 10 s
+    chunk 187 of 1254, elapsed 15 s
+    chunk 249 of 1254, elapsed 20 s
+    chunk 311 of 1254, elapsed 25 s
+    chunk 373 of 1254, elapsed 30 s
+    chunk 435 of 1254, elapsed 35 s
+    chunk 497 of 1254, elapsed 40 s
+    chunk 559 of 1254, elapsed 45 s
+    chunk 621 of 1254, elapsed 50 s
+    chunk 683 of 1254, elapsed 55 s
+    chunk 745 of 1254, elapsed 59 s
+    chunk 807 of 1254, elapsed 64 s
+    chunk 869 of 1254, elapsed 69 s
+    chunk 931 of 1254, elapsed 74 s
+    chunk 993 of 1254, elapsed 79 s
+    chunk 1055 of 1254, elapsed 84 s
+    chunk 1117 of 1254, elapsed 89 s
+    chunk 1179 of 1254, elapsed 95 s
+    chunk 1241 of 1254, elapsed 100 s
+    chunk 1254 of 1254, elapsed 101 s
+
+                                60.0 s       6.0 s       0.6 s      0.06 s   continuum
+accum_mean_mm                     1.93      0.6861      0.3439      0.2479         0.2
+accum_cutoff_mm                  59.45       62.72       59.93       72.63       64.22
+wet_mean_min                     12.87       4.574       2.293       1.653       1.333
+wet_cutoff_h                     6.606       6.969       6.659        8.07       7.136
+dry_mean_min                     369.9       144.5       71.11       48.29          40
+dry_cutoff_h                     161.2       182.5       194.2       177.8         200
+events_per_wet_day_mean           6.53       17.11        33.5       48.76         nan
+wet_day_frac                    0.5762      0.5644      0.5855      0.5912         nan
+daily_wet_mean_mm                 12.6       11.74       11.52       12.09         nan
+daily_PL_mom_mm                  28.47       29.37       30.12       32.39         nan
+daily_tauP_mom                  0.5573      0.6003      0.6175      0.6268         nan
+mean_precip_mm_day               7.261       6.625       6.746       7.148         nan
+budget_floor_mm_day            0.09808       0.133      0.1036     0.08406         nan
+budget_residual_mm_day      -6.554e-10    5.14e-09  -5.099e-08  -4.516e-07         nan
+wall_s                           1.042        1.19       10.89       100.7         nan
+
+departure from the continuum, and its ratio to the next smaller dt's
+accum_mean_mm                     1.73      0.4861      0.1439     0.04794   ratios 3.56 3.38 3
+wet_mean_min                     11.53       3.241      0.9594      0.3196   ratios 3.56 3.38 3
+dry_mean_min                     329.9       104.5       31.11       8.292   ratios 3.16 3.36 3.75
+wrote /Users/sah2249/Library/CloudStorage/Dropbox/projects/stoch-rain-model/outputs/dt_convergence_10yr.json

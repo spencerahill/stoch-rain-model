@@ -1,0 +1,318 @@
+{
+ "notebook": {
+  "config": {
+   "dt_hours": 0.016666666666666666,
+   "sqrt_noise": false,
+   "wet_source": true,
+   "floor_restore": false
+  },
+  "seed": 1,
+  "years": 100,
+  "effective_d_wet": 131.68143377105218,
+  "effective_d_dry": 23.237900077244504,
+  "theory": {
+   "accum_mean_mm": 0.20689655172413796,
+   "accum_cutoff_mm": 4123.662306777647,
+   "wet_mean_min": 1.3793103448275863,
+   "wet_cutoff_h": 458.1847007530719,
+   "dry_mean_min": 39.99999999999999,
+   "dry_cutoff_h": 12000.0
+  },
+  "measured": {
+   "budget_source_mm_day": 7.199999991635395,
+   "budget_rain_mm_day": 77.4144369762365,
+   "budget_noise_mm_day": 0.3791016221731255,
+   "budget_floor_mm_day": 69.83373084146642,
+   "budget_q_change_mm_day": -0.001604522665011746,
+   "budget_residual_mm_day": -1.703447697135041e-09,
+   "n_events": 200483,
+   "n_days": 36500,
+   "accum_mean_mm": 14.094097504526557,
+   "accum_cutoff_mm": 3937.534159563992,
+   "accum_max_mm": 13481.999999979716,
+   "wet_mean_min": 93.96065003017712,
+   "wet_cutoff_h": 437.50379550734414,
+   "wet_max_h": 1498.0,
+   "dry_mean_min": 168.2054797936972,
+   "dry_cutoff_h": 18.69443781882637,
+   "frac_time_raining": 0.3584001712328767,
+   "mean_precip_mm_day": 77.41443698630252,
+   "wet_day_frac": 0.9841643835616438,
+   "all_day_rain_frac_of_wet_days": 0.21248816881019988,
+   "events_per_wet_day_mean": 5.5810645287010745,
+   "events_per_wet_day_var": 23.680876345760886,
+   "daily_wet_mean_mm": 78.66006764656873,
+   "daily_wet_max_mm": 216.0000000000053,
+   "daily_PL_mom_mm": 93.11742228801431,
+   "daily_tauP_mom": 0.1552593949253518,
+   "daily_fit": {
+    "tau": 0.7513465905813167,
+    "cutoff": Infinity,
+    "n_bins": 30
+   },
+   "accum_fit": {
+    "tau": 1.5703643725651895,
+    "cutoff": 7400.955015869979,
+    "n_bins": 44
+   },
+   "q_max_mm": 8583.436957169779,
+   "frac_minutes_q_over_100mm": 0.34314577625570775,
+   "n_floor": 1201796,
+   "n_steps": 52560000,
+   "wall_s": 2.674468952929601
+  }
+ },
+ "noise fixed": {
+  "config": {
+   "dt_hours": 0.016666666666666666,
+   "sqrt_noise": true,
+   "wet_source": true,
+   "floor_restore": false
+  },
+  "seed": 2,
+  "years": 100,
+  "effective_d_wet": 17.0,
+  "effective_d_dry": 3.0,
+  "theory": {
+   "accum_mean_mm": 0.20689655172413796,
+   "accum_cutoff_mm": 68.72770511296078,
+   "wet_mean_min": 1.3793103448275863,
+   "wet_cutoff_h": 7.636411679217864,
+   "dry_mean_min": 39.99999999999999,
+   "dry_cutoff_h": 199.99999999999994
+  },
+  "measured": {
+   "budget_source_mm_day": 7.199999991635395,
+   "budget_rain_mm_day": 7.338094520422863,
+   "budget_noise_mm_day": 0.037509214319112784,
+   "budget_floor_mm_day": 0.09934261633358944,
+   "budget_q_change_mm_day": -0.0012426898968527216,
+   "budget_residual_mm_day": 8.237912810888856e-09,
+   "n_events": 133834,
+   "n_days": 36500,
+   "accum_mean_mm": 2.0012885365452715,
+   "accum_cutoff_mm": 63.73492857626148,
+   "accum_max_mm": 306.1500000000016,
+   "wet_mean_min": 13.341923576968483,
+   "wet_cutoff_h": 7.081658730695725,
+   "wet_max_h": 34.016666666666666,
+   "dry_mean_min": 379.3120306650826,
+   "dry_cutoff_h": 181.59978497794492,
+   "frac_time_raining": 0.0339726598173516,
+   "mean_precip_mm_day": 7.338094520547938,
+   "wet_day_frac": 0.5594246575342465,
+   "all_day_rain_frac_of_wet_days": 4.897399480875655e-05,
+   "events_per_wet_day_mean": 6.554385621235125,
+   "events_per_wet_day_var": 20.995756636839143,
+   "daily_wet_mean_mm": 13.117216807875002,
+   "daily_wet_max_mm": 216.0000000000053,
+   "daily_PL_mom_mm": 29.34120639705889,
+   "daily_tauP_mom": 0.5529421445605642,
+   "daily_fit": {
+    "tau": 0.7341635817044148,
+    "cutoff": 34.34646552753048,
+    "n_bins": 29
+   },
+   "accum_fit": {
+    "tau": 1.6405106262611042,
+    "cutoff": 82.93012831203252,
+    "n_bins": 30
+   },
+   "q_max_mm": 254.61747940241148,
+   "frac_minutes_q_over_100mm": 0.00392351598173516,
+   "n_floor": 13266,
+   "n_steps": 52560000,
+   "wall_s": 2.036861394997686
+  }
+ },
+ "paper 1 min": {
+  "config": {
+   "dt_hours": 0.016666666666666666,
+   "sqrt_noise": true,
+   "wet_source": false,
+   "floor_restore": true
+  },
+  "seed": 3,
+  "years": 100,
+  "effective_d_wet": 17.0,
+  "effective_d_dry": 3.0,
+  "theory": {
+   "accum_mean_mm": 0.2,
+   "accum_cutoff_mm": 64.22222222222223,
+   "wet_mean_min": 1.3333333333333333,
+   "wet_cutoff_h": 7.135802469135802,
+   "dry_mean_min": 39.99999999999999,
+   "dry_cutoff_h": 199.99999999999994
+  },
+  "measured": {
+   "budget_source_mm_day": 6.964335608668746,
+   "budget_rain_mm_day": 7.069931506689925,
+   "budget_noise_mm_day": -0.004978916710090457,
+   "budget_floor_mm_day": 0.11038081701264656,
+   "budget_q_change_mm_day": -0.00019399010965132478,
+   "budget_residual_mm_day": 7.608971879137375e-09,
+   "n_events": 134000,
+   "n_days": 36500,
+   "accum_mean_mm": 1.925764925373134,
+   "accum_cutoff_mm": 63.69409016843593,
+   "accum_max_mm": 314.25000000000074,
+   "wet_mean_min": 12.838432835820894,
+   "wet_cutoff_h": 7.0771211298262084,
+   "wet_max_h": 34.916666666666664,
+   "dry_mean_min": 379.38132374122193,
+   "dry_cutoff_h": 180.70831272028016,
+   "frac_time_raining": 0.03273116438356164,
+   "mean_precip_mm_day": 7.069931506849308,
+   "wet_day_frac": 0.5606575342465754,
+   "all_day_rain_frac_of_wet_days": 0.00019546520719311962,
+   "events_per_wet_day_mean": 6.548084440969507,
+   "events_per_wet_day_var": 21.09092479036777,
+   "daily_wet_mean_mm": 12.610071344800613,
+   "daily_wet_max_mm": 216.0000000000053,
+   "daily_PL_mom_mm": 29.551477351685364,
+   "daily_tauP_mom": 0.5732845706923196,
+   "daily_fit": {
+    "tau": 0.7608829425520063,
+    "cutoff": 35.51381771115478,
+    "n_bins": 29
+   },
+   "accum_fit": {
+    "tau": 1.678657196830773,
+    "cutoff": 95.11148665959747,
+    "n_bins": 30
+   },
+   "q_max_mm": 216.29637704900313,
+   "frac_minutes_q_over_100mm": 0.0033997907153729074,
+   "n_floor": 8360,
+   "n_steps": 52560000,
+   "wall_s": 2.0986809430178255
+  }
+ },
+ "paper 0.6 s": {
+  "config": {
+   "dt_hours": 0.00016666666666666666,
+   "sqrt_noise": true,
+   "wet_source": false,
+   "floor_restore": true
+  },
+  "seed": 4,
+  "years": 100,
+  "effective_d_wet": 17.0,
+  "effective_d_dry": 3.0,
+  "theory": {
+   "accum_mean_mm": 0.2,
+   "accum_cutoff_mm": 64.22222222222223,
+   "wet_mean_min": 1.3333333333333333,
+   "wet_cutoff_h": 7.135802469135802,
+   "dry_mean_min": 39.99999999999999,
+   "dry_cutoff_h": 199.99999999999994
+  },
+  "measured": {
+   "budget_source_mm_day": 6.967245746859377,
+   "budget_rain_mm_day": 6.982646454377718,
+   "budget_noise_mm_day": -0.0782243107927587,
+   "budget_floor_mm_day": 0.0931327942978699,
+   "budget_q_change_mm_day": -0.0004928642508921386,
+   "budget_residual_mm_day": -6.402376629020476e-07,
+   "n_events": 727501,
+   "n_days": 36500,
+   "accum_mean_mm": 0.35033160916623013,
+   "accum_cutoff_mm": 64.84542896749547,
+   "accum_max_mm": 381.9584999979874,
+   "wet_mean_min": 2.3355440611078198,
+   "wet_cutoff_h": 7.205047663056301,
+   "wet_max_h": 42.43983333333333,
+   "dry_mean_min": 69.91094437113401,
+   "dry_cutoff_h": 175.6086307498562,
+   "frac_time_raining": 0.03232706697108067,
+   "mean_precip_mm_day": 6.982646465755704,
+   "wet_day_frac": 0.5907123287671233,
+   "all_day_rain_frac_of_wet_days": 9.276007606326238e-05,
+   "events_per_wet_day_mean": 33.74152404804972,
+   "events_per_wet_day_var": 599.1227917777368,
+   "daily_wet_mean_mm": 11.82072241547624,
+   "daily_wet_max_mm": 215.99999999935687,
+   "daily_PL_mom_mm": 30.019980897401876,
+   "daily_tauP_mom": 0.6062381766372382,
+   "daily_fit": {
+    "tau": 0.5467170235520192,
+    "cutoff": 28.90685658876177,
+    "n_bins": 49
+   },
+   "accum_fit": {
+    "tau": 1.4918840542468659,
+    "cutoff": 66.41379182264711,
+    "n_bins": 49
+   },
+   "q_max_mm": 210.91680600060374,
+   "frac_minutes_q_over_100mm": 0.0037288051750380517,
+   "n_floor": 69997,
+   "n_steps": 5256000000,
+   "wall_s": 105.17858720989898
+  }
+ },
+ "noise fixed, El Nino": {
+  "config": {
+   "dt_hours": 0.016666666666666666,
+   "sqrt_noise": true,
+   "wet_source": true,
+   "floor_restore": false,
+   "d_wet_factor": 1.5
+  },
+  "seed": 5,
+  "years": 100,
+  "effective_d_wet": 25.5,
+  "effective_d_dry": 3.0,
+  "theory": {
+   "accum_mean_mm": 0.20689655172413796,
+   "accum_cutoff_mm": 154.63733650416174,
+   "wet_mean_min": 1.3793103448275863,
+   "wet_cutoff_h": 17.181926278240194,
+   "dry_mean_min": 39.99999999999999,
+   "dry_cutoff_h": 199.99999999999994
+  },
+  "measured": {
+   "budget_source_mm_day": 7.199999991635395,
+   "budget_rain_mm_day": 7.367465753303332,
+   "budget_noise_mm_day": 0.04888827523568878,
+   "budget_floor_mm_day": 0.11834391369514276,
+   "budget_q_change_mm_day": -0.0002335644956695684,
+   "budget_residual_mm_day": 8.24143558763148e-09,
+   "n_events": 95821,
+   "n_days": 36500,
+   "accum_mean_mm": 2.8064046503376057,
+   "accum_cutoff_mm": 149.37812975942578,
+   "accum_max_mm": 913.4999999999347,
+   "wet_mean_min": 18.70936433558406,
+   "wet_cutoff_h": 16.597569973269774,
+   "wet_max_h": 101.5,
+   "dry_mean_min": 529.8176163640159,
+   "dry_cutoff_h": 184.989158837429,
+   "frac_time_raining": 0.03410863774733638,
+   "mean_precip_mm_day": 7.367465753424654,
+   "wet_day_frac": 0.5413424657534247,
+   "all_day_rain_frac_of_wet_days": 0.001872564401032441,
+   "events_per_wet_day_mean": 4.849486310035933,
+   "events_per_wet_day_var": 11.498171581863803,
+   "daily_wet_mean_mm": 13.609620932233407,
+   "daily_wet_max_mm": 216.0000000000053,
+   "daily_PL_mom_mm": 50.821030413464754,
+   "daily_tauP_mom": 0.7322049391460663,
+   "daily_fit": {
+    "tau": 0.9991477679911861,
+    "cutoff": 75.26347182548776,
+    "n_bins": 30
+   },
+   "accum_fit": {
+    "tau": 1.628831533882029,
+    "cutoff": 202.62026769633192,
+    "n_bins": 32
+   },
+   "q_max_mm": 540.9071304322491,
+   "frac_minutes_q_over_100mm": 0.012744996194824961,
+   "n_floor": 16042,
+   "n_steps": 52560000,
+   "wall_s": 1.6472393351141363
+  }
+ }
+}
