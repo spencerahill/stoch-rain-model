@@ -2,8 +2,9 @@
 # model of Martinez-Villalobos and Neelin (2019, J. Atmos. Sci.).
 #
 #   pixi install
-#   pixi run test                   # the port in scripts/ against the notebook's class
-#   pixi run check                  # integrate the model, compare with the paper
+#   pixi run -e dev test            # tests of both notebooks' model code
+#   pixi run check                  # the review's comparison of the 2023 notebook with the paper
+#   pixi run jupyter lab stoch_rain_model.ipynb
 
 [workspace]
 name = "stoch-rain-model"
