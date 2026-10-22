@@ -1,0 +1,9 @@
+# The paper itself (Martinez-Villalobos and Neelin 2019): AMS copyright, kept
+# beside the code for reading, not for redistribution
+martinez-villalobos-neelin-2019-jas.pdf
+.ipynb_checkpoints/
+__pycache__/
+.pixi/
+# Emacs lock/backup files
+.#*
+#*#

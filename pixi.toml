@@ -1,0 +1,44 @@
+# Environment for reviewing and running the single-column stochastic moisture
+# model of Martinez-Villalobos and Neelin (2019, J. Atmos. Sci.).
+#
+#   pixi install
+#   pixi run test                   # the port in scripts/ against the notebook's class
+#   pixi run check                  # integrate the model, compare with the paper
+
+[workspace]
+name = "stoch-rain-model"
+channels = ["conda-forge"]
+platforms = ["osx-64", "osx-arm64", "linux-64"]
+requires-pixi = ">=0.81.0"
+
+[dependencies]
+python = "3.12.*"
+numpy = "*"
+scipy = "*"
+matplotlib-base = ">=3.11"
+numba = "*"
+cmcrameri = "*"
+jupyter = "*"
+nbconvert = "*"
+ipykernel = "*"
+# puffins's own requirements, taken from conda-forge rather than as wheels;
+# faceted, pure Python and not on conda-forge, comes from PyPI with puffins
+xarray = "*"
+eofs = "*"
+pymannkendall = "*"
+scikit-learn = "*"
+statsmodels = "*"
+
+[pypi-dependencies]
+puffins = "==0.3.0"
+
+[tasks]
+test = "pytest tests"
+check = "python -u scripts/check_against_mv19.py"
+
+[feature.dev.dependencies]
+pytest = "*"
+ruff = "*"
+
+[environments]
+dev = ["dev"]
